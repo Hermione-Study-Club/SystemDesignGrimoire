@@ -52,7 +52,7 @@ create table tablea (
 #  Composite primary key
 #  key_part_one -> partition key
 #  key_part_two -> clustering key
-#  PRIMARY KEY(key_part_one, key_part_one) -> Compound primary key
+#  PRIMARY KEY(key_part_one, key_part_two) -> Compound primary key
 create table tablea (
     key_part_one text,
     key_part_two int,
@@ -102,7 +102,7 @@ python -c "print([str(((2**64 / 6) * i) - 2**63) for i in range(6)])"
 __virtual nodes 可以將資料以更細的顆粒度分散在系統中__
 
 * Tokens 會自動產生然後分配給各個 node
-* 當有 node 新增or刪除, Reblancing cluster 會自動完成
+* 當有 node 新增or刪除, Rebalancing cluster 會自動完成
 
 ![without-vnode](./imgs/cassandra-with-and-without-vnode.png)
 
