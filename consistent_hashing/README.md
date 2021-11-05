@@ -33,3 +33,6 @@ Through multiple server point/node in the ring to evenly distribute key to serve
 ## trade off
 
 multi server point/node also need more space to store data.
+
+## collaborate note
+- [link](https://hackmd.io/@ubhINvjTRgO1xxPrIyOlqQ/ByoMu8WwK)
