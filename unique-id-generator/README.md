@@ -38,3 +38,10 @@ How twitter generate unique ID numbers for tweets?
     * Sequence number: 12 bits
 
 * IDs are sorted by time because of Timestamp.
+
+
+
+## Examples
+
+![ig](./imgs/ig.png)
+> open img in new tab
