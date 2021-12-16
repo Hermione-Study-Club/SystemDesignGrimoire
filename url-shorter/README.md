@@ -22,3 +22,5 @@
 - There is a security concern
 
 
+## Offline-archite
+![](./imgs/offline-pre-generate-short-url-architecture.svg)
